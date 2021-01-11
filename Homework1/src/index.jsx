@@ -21,8 +21,6 @@ const MessageField = (props) => {
 };
 
 
-//return <main onClick={click}><Message text="Some text1"/></main>;
-
 ReactDOM.render(
    <MessageField messages={ messages } />,
    document.getElementById('root'),
